@@ -5,8 +5,8 @@ def speak_to_grandma(phrase)
 # Whatever you say to grandma, she should respond with
 # HUH?! SPEAK UP, SONNY!
 # unless you shout it (type in all capitals).
-  elsif "#{phrase}" != "I LOVE YOU GRANDMA!"
-    return "I LOV EYOU TOO PUMPKIN!"
+  elsif "#{phrase}" == "I LOVE YOU GRANDMA!"
+    return "I LOVE YOU TOO PUMPKIN!"
 # If you shout, she can hear you (or at least she thinks so)
 # and yells back
 
